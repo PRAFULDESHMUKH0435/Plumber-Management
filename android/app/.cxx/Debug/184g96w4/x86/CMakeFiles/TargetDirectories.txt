@@ -1,0 +1,2 @@
+/Users/prafuldeshmukh/FlutterProjects/plumber_manager/android/app/.cxx/Debug/184g96w4/x86/CMakeFiles/edit_cache.dir
+/Users/prafuldeshmukh/FlutterProjects/plumber_manager/android/app/.cxx/Debug/184g96w4/x86/CMakeFiles/rebuild_cache.dir
