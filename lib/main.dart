@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:plumber_manager/Utils/kaamgarmodeladapter.dart';
-import 'package:plumber_manager/view-model/kaamhgarprovider.dart';
+import 'package:plumber_manager/view-model/kaamgarprovider.dart';
 import 'package:plumber_manager/view/homescreen.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';

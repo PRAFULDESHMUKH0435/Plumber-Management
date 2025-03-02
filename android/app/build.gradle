@@ -8,6 +8,7 @@ android {
     namespace  "com.example.plumber_manager"
     compileSdk = flutter.compileSdkVersion
     ndkVersion "27.2.12479018"  // Update this to match installed NDK version
+    compileSdkVersion 34  // Ensure this is present
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
@@ -20,8 +21,10 @@ android {
 
     defaultConfig {
         applicationId = "com.example.plumber_manager"
-        minSdk = flutter.minSdkVersion
-        targetSdk = flutter.targetSdkVersion
+        // minSdk = flutter.minSdkVersion
+        // targetSdk = flutter.targetSdkVersion
+        minSdkVersion 23
+        targetSdkVersion 33
         versionCode = flutter.versionCode
         versionName = flutter.versionName
     }

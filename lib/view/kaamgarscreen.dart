@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_contacts/flutter_contacts.dart';
 import 'package:plumber_manager/model/kaamgarmodel.dart';
-import 'package:plumber_manager/view-model/kaamhgarprovider.dart';
+import 'package:plumber_manager/view-model/kaamgarprovider.dart';
 import 'package:provider/provider.dart';
 import 'package:permission_handler/permission_handler.dart';
 
@@ -19,7 +19,10 @@ class _KaamGarScreenState extends State<KaamGarScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('कामगार यादी'),
+        title: const Text(
+          'कामगार यादी',
+          style: TextStyle(fontWeight: FontWeight.bold),
+        ),
         backgroundColor: Colors.red,
       ),
       body: Padding(

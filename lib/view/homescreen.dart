@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:plumber_manager/Utils/sidebar.dart';
-import 'package:plumber_manager/view-model/kaamhgarprovider.dart';
+import 'package:plumber_manager/view-model/kaamgarprovider.dart';
 import 'package:plumber_manager/view/kaamgardetailsscreen.dart';
 import 'package:provider/provider.dart';
 
@@ -11,7 +11,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Plumber Manager'),
+        title: Text('कामगार Manager',style: TextStyle(fontWeight:FontWeight.bold),),
         backgroundColor: Colors.red,
       ),
       drawer: SidebarNavigation(),

@@ -15,15 +15,16 @@ class SidebarNavigation extends StatelessWidget {
               color: Colors.red,
             ),
             child: Text(
-              'Plumber Manager',
+              'कामगार Manager',
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 24,
+                fontWeight: FontWeight.bold
               ),
             ),
           ),
           ListTile(
-            title: Text('कामगार जोडा', style: TextStyle(fontSize: 18)),
+            title: Text('कामगार जोडा', style: TextStyle(fontSize: 18,fontWeight:FontWeight.bold)),
             onTap: () {
               Navigator.push(
                 context,
